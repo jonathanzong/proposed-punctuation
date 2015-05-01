@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Proposed Punctuation</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">    
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <h1>Proposed Punctuation</h1>
+      <h4>The Typographic Apocrypha of Hervé Bazin</h4>
+
+      <br/>
+
+      <h1 id="delta" class="center-block text-center"></h1>
+
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
+      <hr/>
+
+      <!-- Glyphs -->
+
+
+      <div class="row">
+        <p>A TrueType implementation of proposed, non-canonical punctuation marks from <a target="_blank" href="http://en.wikipedia.org/wiki/Herv%C3%A9_Bazin">Hervé Bazin</a>'s 1966 essay <em>Plumons l’Oiseau</em>. Glyphs reside at Unicode block <a target="_blank" href="http://std.dkuug.dk/jtc1/sc2/wg2/docs/n4256.pdf">suggested</a> by Mykyta Yevstifeyev and Karl Pentzlin.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-1 text-center">
+          <h3>&#x2E43;</h3>
+        </div>
+        <div class="col-md-8">
+          <h3>Love Point &mdash; U+2E43</h3>
+          <h5>Point d'amour</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-1 text-center">
+          <h3>&#x2E44;</h3>
+        </div>
+        <div class="col-md-8">
+          <h3>Certitude Point &mdash; U+2E44</h3>
+          <h5>Point de certitude</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-1 text-center">
+          <h3>&#x2E45;</h3>
+        </div>
+        <div class="col-md-8">
+          <h3>Authority Point &mdash; U+2E45</h3>
+          <h5>Point d'autorité</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-1 text-center">
+          <h3>&#x2E46;</h3>
+        </div>
+        <div class="col-md-8">
+          <h3>Irony Point &mdash; U+2E46</h3>
+          <h5>Point d'ironie</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-1 text-center">
+          <h3>&#x2E47;</h3>
+        </div>
+        <div class="col-md-8">
+          <h3>Acclamation Point &mdash; U+2E47</h3>
+          <h5>Point d'acclamation</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-1 text-center">
+          <h3>&#x2E48;</h3>
+        </div>
+        <div class="col-md-8">
+          <h3>Doubt Point &mdash; U+2E48</h3>
+          <h5>Point de doute</h5>
+        </div>
+      </div>
+
+      <hr/>
+
+      <!-- Usage -->
+
+
+      <h2>Usage</h2>
+
+      <br/>
+      <p>Download the Bazin TrueType font file <a href="#">here</a>.</p>
+
+      <br/>
+      <p>Define a CSS font-face with the TrueType file</p>
+      <pre>
+        @font-face {
+            font-family: "Bazin";
+            src: url("path/to/Bazin.ttf");
+        }</pre>
+
+      <br/>
+      <p>Include Bazin as a fallback font in your font-family declaration. CSS will load your primary font for text and fall back to Bazin for the punctuation glyphs, which are unimplemented in most other fonts.</p>
+      <pre>
+        body {
+          font-family: 'EB Garamond', 'Bazin', serif;
+        }</pre>
+      
+    
+
+      <hr/>
+
+      <!-- Details -->
+
+      <h2>Details</h2>
+
+      <br/>
+      <ul>
+        <li>Glyphs traced as SVGs from raster images using Adobe Illustrator.</li>
+        <li>Font generated using <a target="_blank" href="http://fontforge.github.io/">FontForge</a>.</li>
+
+      </ul>
+
+    <!-- End -->
+      <hr/>
+
+      <div class="text-center">2015 Jonathan Zong, with &#x2e43;</div>
+
+      <br/>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

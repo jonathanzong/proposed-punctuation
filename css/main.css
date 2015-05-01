@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Bazin";
+    src: url("../assets/Bazin.ttf");
+}
+
+html, body {
+	font-family: 'EB Garamond', 'Bazin', serif;
+}
